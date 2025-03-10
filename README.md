@@ -24,4 +24,24 @@ Este proyecto implementa una herramienta gráfica en Java para dibujar curvas de
 - **Sistema operativo**: Compatible con Windows, macOS o Linux.
 
 ## Instalación y Ejecución
-1. Clona o descarga este repositorio:
+1. Clona o descarga este repositorio
+2. Navega al directorio del proyecto
+3. Compila el código
+4.  Ejecuta la aplicación
+
+## Uso
+1. **Agregar puntos**: Escribe coordenadas en el campo de texto (ej. "2,3") y haz clic en "Agregar" o presiona Enter.
+2. **Mover puntos**: Haz clic izquierdo sobre un punto y arrástralo.
+3. **Eliminar puntos**: Haz clic derecho sobre un punto y confirma la eliminación.
+4. **Dibujar curva**: Haz clic en "Dibujar" para trazar la curva de Bézier.
+5. **Limpiar**: Haz clic en "Limpiar" para borrar todos los puntos.
+
+## Limitaciones
+- El cálculo del factorial usa enteros (`int`), lo que limita el grado de la curva a valores pequeños (n < 13) antes de un desbordamiento.
+- La curva no se redibuja automáticamente al mover puntos; requiere presionar "Dibujar".
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+## Contacto
+Para preguntas o sugerencias, contacta a cesar.caro@uptc.edu.co.
